@@ -17,7 +17,6 @@ parser.add_argument('--ats', help='Access token secret')
 
 args = parser.parse_args()
 
-print args
 # Check PBX extensions status
 popen = subprocess.Popen(['/usr/sbin/asterisk', '-rx', 'sip show peers'], stdout=subprocess.PIPE) 
 out, err = popen.communicate()
