@@ -9,11 +9,11 @@ import argparse
 
 # Check config options
 parser = argparse.ArgumentParser(description='Tweet an alert when a PBX extension goes down')
-parser.add_argument('--notweet', help='Active when a tweet alert should be triggered', action='store_true')
-parser.add_argument('--ck', help='Consumer key')
-parser.add_argument('--cs', help='Consumer secret')
-parser.add_argument('--at', help='Access token')
-parser.add_argument('--ats', help='Access token secret')
+parser.add_argument('--notweet', help='Active when a tweet alert should not be triggered', action='store_true')
+parser.add_argument('--ck', help='Twitter consumer key')
+parser.add_argument('--cs', help='Twitter consumer secret')
+parser.add_argument('--at', help='Twitter access token')
+parser.add_argument('--ats', help='Twitter access token secret')
 
 args = parser.parse_args()
 
