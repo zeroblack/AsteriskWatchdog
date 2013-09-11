@@ -9,7 +9,7 @@ You will run this script using crontab. every time it runs, it will tweet you wh
 
 - Pass your twitter OAuth credentials as parameters:
   
-./dog.py --ck=YourConsumerKey --cs=YourConsumerSecre --at=YourAccessToken --ats=YourAccessTokenSecret
+./dog.py --ck=YourConsumerKey --cs=YourConsumerSecret --at=YourAccessToken --ats=YourAccessTokenSecret
 
 Bonus: You can use crontab and make _dog.py_ run every minute for example.
 
